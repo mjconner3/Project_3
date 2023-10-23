@@ -1,66 +1,48 @@
-#main-navbar {
-  background-color: blue;
-  overflow: hidden;
-}
-
-#navbar-container {
-  float: left;
-  width: 100%;
-  position: relative;
-}
-
-#main-navbar ul {
-  list-style-type: none;
+body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
-  position: relative;
-  left: 50%;
-  float: left;
 }
 
-#main-navbar ul li {
-  float: left;
-  position: relative;
-  right: 50%;
-  display: block;
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #aac87a;
+  color: #20412b;
 }
 
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-}
 
-#main-navbar ul li a:hover {
-  background-color: #000;
-}
-
-#onpage {
-  text-decoration: underline overline;
-}
-
-#sidebar {
-  position: fixed;
-  right:0%;
-  background-color: Pink;
-  height: 100%;
-  width: 20%;
-}
-
-#sidebar ul {
-  list-style-type: none;
+.navbar {
+  background-color: #20412b;
+  padding: 15px;
   text-align: center;
-  padding: 0;
 }
 
-#sidebar ul li a {
-  display: block;
-  padding: 15px 0;
-  color: #fff;
-  text-decoration: none;
+.navbar a {
+  font-family: 'Times New Roman', serif;
+  color: rgb(212, 214, 173);
+  padding: 14px 20px;
+  text-align: center;
 }
 
-#sidebar ul li a:hover {
-  background-color: #000;
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #c9efbc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px; /* Optional: for rounded corners */
+}
+
+h1, h2 {
+  color: #4F9D69;
+}
+
+p {
+  margin-bottom: 20px;
 }

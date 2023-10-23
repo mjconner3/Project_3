@@ -1,48 +1,115 @@
-body, h1, h2, h3, p {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color:pink;
-  color: #20412b;
+  background: linear-gradient(to right, blue , red);
+  font-family: trebuchet ms;
 }
 
-
-.navbar {
-  background-color: turquoise;
-  padding: 15px;
-  text-align: center;
+nav {
+  padding: 10px;
+  background-color: body {
+  background: linear-gradient(to right, blue , red);
+  font-family: trebuchet ms;
 }
 
-.navbar a {
-  font-family: 'Times New Roman', serif;
-  color: rgb(212, 214, 173);
-  padding: 14px 20px;
-  text-align: center;
+nav {
+  padding: 10px;
+  background-color: #F7BEC0;
+  color: #333;
+  font-family: monospace;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline-block;
 }
 
 section {
-  padding: 20px;
-  max-width: 800px;
-  margin: 20px auto;
-  background-color: pink;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: #F5F5DC;
+  padding: 2rem;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px; /* Optional: for rounded corners */
+h1, h2, h3, p, ul, li, ol, dt, dt, dd {
+  text-align: center;
+  color: #111;
 }
 
-h1, h2 {
-  color: #4F9D69;
+a {
+  color: #333;
+  text-decoration: underline;
 }
 
-p {
-  margin-bottom: 20px;
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+ol li {
+  text-align: center;
+}
+
+img, iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.fragrenceNote {
+  font-weight: bold;
+};
+  color: #333;
+  font-family: monospace;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline-block;
+}
+
+section {
+  background-color: #F5F5DC;
+  padding: 2rem;
+}
+
+h1, h2, h3, p, ul, li, ol, dt, dt, dd {
+  text-align: center;
+  color: #111;
+}
+
+a {
+  color: #333;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+ol li {
+  text-align: center;
+}
+
+img, iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.fragrenceNote {
+  font-weight: bold;
 }

@@ -1,115 +1,66 @@
-body {
-  background: linear-gradient(to right, pink , lightblue);
-  font-family: trebuchet ms;
+#main-navbar {
+  background-color: Purple;
+  overflow: hidden;
 }
 
-nav {
-  padding: 10px;
-  background-color: body {
-  background: linear-gradient(to right, pink , lightblue);
-  font-family: trebuchet ms;
+#navbar-container {
+  float: left;
+  width: 100%;
+  position: relative;
 }
 
-nav {
-  padding: 10px;
-  background-color: #F7BEC0;
-  color: #333;
-  font-family: monospace;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav li {
-  display: inline-block;
-}
-
-section {
-  background-color: #F5F5DC;
-  padding: 2rem;
-}
-
-h1, h2, h3, p, ul, li, ol, dt, dt, dd {
-  text-align: center;
-  color: #111;
-}
-
-a {
-  color: #333;
-  text-decoration: underline;
-}
-
-ul {
+#main-navbar ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#main-navbar ul li {
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
+}
+
+#main-navbar ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+#main-navbar ul li a:hover {
+  background-color: #000;
+}
+
+#onpage {
+  text-decoration: underline overline;
+}
+
+#sidebar {
+  position: fixed;
+  right:0%;
+  background-color: Pink;
+  height: 100%;
+  width: 20%;
+}
+
+#sidebar ul {
+  list-style-type: none;
+  text-align: center;
   padding: 0;
 }
 
-li {
-  margin-bottom: 0.5rem;
-}
-
-ol li {
-  text-align: center;
-}
-
-img, iframe {
+#sidebar ul li a {
   display: block;
-  margin: 0 auto;
+  padding: 15px 0;
+  color: #fff;
+  text-decoration: none;
 }
 
-.fragrenceNote {
-  font-weight: bold;
-};
-  color: #333;
-  font-family: monospace;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-nav li {
-  display: inline-block;
-}
-
-section {
-  background-color: #F5F5DC;
-  padding: 2rem;
-}
-
-h1, h2, h3, p, ul, li, ol, dt, dt, dd {
-  text-align: center;
-  color: #111;
-}
-
-a {
-  color: #333;
-  text-decoration: underline;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
-ol li {
-  text-align: center;
-}
-
-img, iframe {
-  display: block;
-  margin: 0 auto;
-}
-
-.fragrenceNote {
-  font-weight: bold;
+#sidebar ul li a:hover {
+  background-color: #000;
 }

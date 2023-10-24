@@ -1,65 +1,10 @@
-#main-navbar {
-  background-color: Purple;
-  overflow: hidden;
-}
-
-#navbar-container {
-  float: left;
-  width: 100%;
-  position: relative;
-}
-
-#main-navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: 50%;
+li {
   float: left;
 }
 
-#main-navbar ul li {
-  float: left;
-  position: relative;
-  right: 50%;
+a {
   display: block;
-}
-
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-}
-
-#main-navbar ul li a:hover {
-  background-color: #000;
-}
-
-#onpage {
-  text-decoration: underline overline;
-}
-
-#sidebar {
-  position: fixed;
-  right:0%;
+  padding: 8px;
   background-color: Pink;
-  height: 100%;
-  width: 20%;
 }
 
-#sidebar ul {
-  list-style-type: none;
-  text-align: center;
-  padding: 0;
-}
-
-#sidebar ul li a {
-  display: block;
-  padding: 15px 0;
-  color: #fff;
-  text-decoration: none;
-}
-
-#sidebar ul li a:hover {
-  background-color: #000;

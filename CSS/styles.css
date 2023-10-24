@@ -1,66 +1,36 @@
-#main-navbar {
-  background-color: Purple;
-  overflow: hidden;
+
+html {
+  background-color: lightblue;
 }
 
-#navbar-container {
-  float: left;
-  width: 100%;
-  position: relative;
-}
-
-#main-navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  left: 50%;
-  float: left;
-}
-
-#main-navbar ul li {
-  float: left;
-  position: relative;
-  right: 50%;
-  display: block;
-}
-
-#main-navbar ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-}
-
-#main-navbar ul li a:hover {
-  background-color: #000;
-}
-
-#onpage {
-  text-decoration: underline overline;
-}
-
-#sidebar {
-  position: fixed;
-  right:0%;
-  background-color: Pink;
-  height: 100%;
-  width: 20%;
-}
-
-#sidebar ul {
-  list-style-type: none;
+header {
   text-align: center;
-  padding: 0;
-}
-
-#sidebar ul li a {
+  color: black;
+  padding: 5%;
+  background-color: pink;
+  width: 75%;
   display: block;
-  padding: 15px 0;
-  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
   text-decoration: none;
 }
 
-#sidebar ul li a:hover {
-  background-color: #000;
+section {
+  padding: 2%;
+  max-width: 800px;
+  margin: 2% auto;
+  background-color: yellow;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1C3144;
+  width: 25%;
+  padding: 1%;
+  text-align: center;
 }

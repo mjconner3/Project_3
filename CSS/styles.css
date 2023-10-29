@@ -6,6 +6,7 @@ Body {
      background-color: lightblue;
      border: 2px solid rpg (175, 175, 175)
      border-color: violet;
+     p.solid {outline-style: solid;}
      } 
 ul {
     list-style-type:none;

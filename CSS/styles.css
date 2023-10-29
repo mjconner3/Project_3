@@ -7,11 +7,15 @@ Body {
 ul {
     list-style-type:none;
     margin: 0;
-    padding:0
+    padding: 0;
     }
 li {
-   float: left
+   float: left;
+   margin-right: 10px;
    }
+li: last-of-type {
+   margin-right: 0;
+   }  
 a {
    display: block;
    width: 6em;
@@ -19,8 +23,8 @@ a {
    padding:  .5em 1em;
    text-decoration: none;
    text-align:center;
-   color: #fff
-   background-color: rgb (190,190,190);
+   color: pink;
+   back-ground color: yellow;
    border: 2px solid rpg (175, 175, 175)
    border radius: 6px;
    /* Start Transition decelerations*/

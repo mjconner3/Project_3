@@ -55,8 +55,8 @@ a {
    }
    /*transition end states*/
    a:hover, a:focus {
-   background-color: #fdca00;
-   border-color: #fda700;
+   background-color: white;
+   border-color: pink;
    }
    a:active {
    top: 3px

@@ -24,30 +24,6 @@ header {
   text-decoration: none;
 }
 
-nav {
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 10px;
-  border: 1px solid #000;
-  background-color: #ffffff;
-  color: #fff;
-}
-
-nav ul::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-nav li {
-  float: left;
-  margin-right: 20px;
-  border: 1px solid #fff;
-}
-
 ul {
   list-style-type: none;
   margin: 0;

@@ -1,5 +1,28 @@
 
-html {
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #ffffff;
+  color: #fff;
+}
+
+nav ul::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav li {
+  float: left;
+  margin-right: 20px;
+  border: 1px solid #fff;
+}
+body {
      font-family: Tahoma, Verdana, Geneva, sans-serif;
      margin: 6em;
      font-weight: bold;
@@ -8,6 +31,7 @@ html {
      border-color: violet;
      p.solid {outline-style: solid;}
      } 
+     
 header {
   text-align: center;
   color: #395e64;
@@ -20,6 +44,7 @@ header {
   justify-content: space-evenly;
   text-decoration: none;
 }
+
 ul {
     list-style-type:none;
     margin: 0;
@@ -36,6 +61,7 @@ li {
 li: last-of-type {
    margin-right: 0;
    }  
+   
 a {
    display: block;
    width: 6em;
@@ -53,11 +79,13 @@ a {
    position: relative;
    transition: background-color 2.2s, border-color 0.2s, top .2s , box-shadow 0.2s;
    }
+   
    /*transition end states*/
    a:hover, a:focus {
    background-color: white;
    border-color: pink;
    }
+   
    a:active {
    top: 3px
    border-shadow: 0 1px 2px rgba (0,0,0,.5)

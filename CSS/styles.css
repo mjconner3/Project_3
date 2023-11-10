@@ -80,6 +80,7 @@ nav li {
 }
 
 a {
+  text-align: horizontal
   display: block;
   text-decoration: none;
   color: pink;

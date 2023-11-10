@@ -3,9 +3,9 @@ body {
   font-family: Tahoma, Verdana, Geneva, sans-serif;
   margin: 6em;
   font-weight: bold;
-  background-color: lightblue;
+  background-color: pink;
   border: 2px solid rgb(175, 175, 175);
-  border-color: violet;
+  border-color: white;
   p.solid {
     outline-style: solid;
   }
@@ -62,7 +62,7 @@ a {
 }
 
 nav {
-  text-align: center;
+  text-align: horizontal;
 }
 
 nav ul {
@@ -83,7 +83,7 @@ a {
   display: block;
   text-decoration: none;
   color: pink;
-  background-color: yellow;
+  background-color: lightblue;
   border: 2px solid rgb(175, 175, 175);
   border-radius: 6px;
   padding: .5em 1em;
@@ -105,7 +105,7 @@ a:active {
 /* transition end states */
 a:hover,
 a:focus {
-  background-color: white;
+  background-color: none;
   border-color: pink;
 }
 
